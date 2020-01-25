@@ -1,0 +1,11 @@
+.text-danger {
+    color: #a94442 !important;
+}
+a.text-danger:hover,
+a.text-danger:focus {
+    color: #843534 !important;
+}
+
+.cryptedmail:after {
+    content: attr(data-name) "@" attr(data-domain) "." attr(data-tld); 
+}
